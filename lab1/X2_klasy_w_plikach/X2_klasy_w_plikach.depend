@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1651161117 source:c:\projects\cpp_po_2022\lab1\x2_klasy_w_plikach\main.cpp
+	<iostream>
+	"Czlowiek.h"
+
+1651162083 source:c:\projects\cpp_po_2022\lab1\x2_klasy_w_plikach\src\czlowiek.cpp
+	"Czlowiek.h"
+
+1651162023 c:\projects\cpp_po_2022\lab1\x2_klasy_w_plikach\include\czlowiek.h
+	<iostream>
+
