@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1652200336 source:c:\projects\cpp_po_2022\lab2\bohaterowie\main.cpp
+	<iostream>
+	<time.h>
+	<chrono>
+	<thread>
+
