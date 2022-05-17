@@ -20,6 +20,12 @@ public:
         this->nazwa = nazwa;
         cout << "konstruktor Przedmiot" << endl;
     }
+    //virtual
+    virtual void dajDzwiek()
+    {
+        cout << "PRzedmiot robi brzed" << endl;
+
+    }
 
     virtual ~Przedmiot() {}
 protected:
@@ -41,6 +47,12 @@ public:
         atakMin = atak1;
         atakMax = atak2;
         cout << "konstruktor Bron" << endl;
+    }
+
+    void dajDzwiek()
+    {
+        cout << "Bron robi pif paf" << endl;
+
     }
 
 };
@@ -162,6 +174,10 @@ int main()
     Przedmiot* b1 = new Bron("miecz", 10, 15);
     Przedmiot* b2 = new Bron("katana", 12, 17);
     Przedmiot* b3 = new Bron("laska", 5, 7);
+
+    p1->dajDzwiek();
+    b1->dajDzwiek();
+    ((Bron*)b1)->dajDzwiek();
 
     vector<Przedmiot*> skrzynia;
 
