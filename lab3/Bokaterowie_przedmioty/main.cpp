@@ -168,6 +168,8 @@ int main()
     Przedmiot* p2 = new Przedmiot("klejnot");
     Przedmiot* p3 = new Przedmiot("mikstura");
 
+    //Przedmiot** ptrToptrP1 = &p1;
+
 //    Bron* b1 = new Bron("miecz", 10, 15);
 //    Bron* b2 = new Bron("katana", 12, 17);
 //    Bron* b3 = new Bron("laska", 5, 7);
