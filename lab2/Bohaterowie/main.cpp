@@ -122,9 +122,15 @@ private:
 
 };
 
+
+class Bron {
+    //
+};
+
 class Wojownik : public Postac
 {
 
+    Bron* bron;
 public:
     Wojownik(string nazwa, int z, int p, int amin, int amax) : Postac(nazwa, z, p, amin, amax)
     {
