@@ -19,8 +19,12 @@ public:
     void metodaPubliczna() {
         cout << "Pojazd: metodaPubliczna" << endl;
     };
-    virtual void dajSygnal() {
-        cout << "Pojazd: Bip pip..." << endl;
+    void dajSygnal() {
+        cout << "Pojazd: Bip pip... bez Virtual" << endl;
+    };
+
+    virtual void dajSygnalZVirtual() {
+        cout << "Pojazd: Bip pip... z Virtual" << endl;
     };
 
     void wyswietlNazwe() {
@@ -105,7 +109,11 @@ public:
     }
 
     void dajSygnal() {
-        cout << "Samochod: trabi..." << endl;
+        cout << "Samochod: trabi... bez Virtual" << endl;
+    };
+
+    void dajSygnalZVirtual() {
+        cout << "Samochod: trabi... z Virtual" << endl;
     };
 
     void jedz() {
@@ -220,6 +228,31 @@ int main()
     delete(pojazd2);
     delete(pojazdNowy);
     delete(samochodSportowy1);
+
+    Pojazd* p1 = new Pojazd("P1");
+    Pojazd* p2 = new Samochod("P2");
+    Samochod* p3 = new Samochod("P3");
+    //Samochod* p2 = new Pojazd("P4");
+
+
+    p1->dajSygnal();
+    p1->dajSygnalZVirtual();
+
+    p2->dajSygnal();
+    p2->dajSygnalZVirtual();
+
+    p3->dajSygnal();
+    p3->dajSygnalZVirtual();
+
+
+    Pojazd* tablica2[] = { p1, p2, p3 };
+    for(int i=0; i<3; i++)
+    {
+
+        tablica2[i]->wyswietlNazwe();
+        tablica2[i]->dajSygnal();
+        tablica2[i]->dajSygnalZVirtual();
+    }
 
 
     return 0;
