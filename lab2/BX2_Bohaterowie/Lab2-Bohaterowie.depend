@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1652124207 source:c:\projects\c_wdp_2022\lab3\lab2-bohaterowie\main.cpp
+	<iostream>
+	<time.h>
+	<chrono>
+	<thread>
+
+1652976809 source:c:\projects\cpp_po_2022_execise\lab2\lab2-bohaterowie\main.cpp
+	<iostream>
+	<time.h>
+	<chrono>
+	<thread>
+
