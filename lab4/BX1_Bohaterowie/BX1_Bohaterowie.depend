@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1653404331 source:c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\src\test.cpp
+	"test.h"
+
+1653404331 c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\include\test.h
+
+1653406381 source:c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\src\bron.cpp
+	"Bron.h"
+	<rodzajPrzedmiotu.h>
+
+1653406405 c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\include\bron.h
+	"Przedmiot.h"
+
+1653406244 c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\include\przedmiot.h
+	<iostream>
+	<rodzajPrzedmiotu.h>
+
+1653405658 c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\include\rodzajprzedmiotu.h
+
+1653406574 source:c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\src\przedmiot.cpp
+	"Przedmiot.h"
+
+1653408936 source:c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\main.cpp
+	<iostream>
+	<time.h>
+	<Postac.h>
+	<Wojownik.h>
+	<Bron.h>
+
+1653408799 c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\include\postac.h
+	"Przedmiot.h"
+	<vector>
+
+1653405492 source:c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\src\wojownik.cpp
+	"Wojownik.h"
+
+1653403985 c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\include\wojownik.h
+	"Postac.h"
+
+1653408660 source:c:\projects\cpp_po_2022\lab4\bx1_bohaterowie\src\postac.cpp
+	"Postac.h"
+	<iostream>
+	"Bron.h"
+	"rodzajPrzedmiotu.h"
+	"Wojownik.h"
+
