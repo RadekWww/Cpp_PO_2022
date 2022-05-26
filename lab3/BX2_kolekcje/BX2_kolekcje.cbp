@@ -2,28 +2,26 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="BX1_Bohaterowie" />
+		<Option title="BX2_kolekcje" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/BX1_Bohaterowie" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/BX2_kolekcje" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/BX1_Bohaterowie" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/BX2_kolekcje" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,18 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Bron.h" />
-		<Unit filename="include/Postac.h" />
-		<Unit filename="include/Przedmiot.h" />
-		<Unit filename="include/Wojownik.h" />
-		<Unit filename="include/rodzajPrzedmiotu.h" />
-		<Unit filename="include/test.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Bron.cpp" />
-		<Unit filename="src/Postac.cpp" />
-		<Unit filename="src/Przedmiot.cpp" />
-		<Unit filename="src/Wojownik.cpp" />
-		<Unit filename="src/test.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
