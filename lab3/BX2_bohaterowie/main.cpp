@@ -9,6 +9,7 @@ public:
     string nazwa;
     int typ;
 
+
     Przedmiot(string nazwa)
     {
 
@@ -28,6 +29,8 @@ public:
         cout << "Przedmiot robi brzdek BezVirtual" << endl;
 
     }
+protected:
+    int cena;
 };
 
 
@@ -46,6 +49,11 @@ public:
         cout << "konstruktor Bron" << endl;
     }
 
+    void PokazCene()
+    {
+        cout << "Bron cena" << this->cena << endl;
+
+    }
 
     void dajDzwiekVirtual()
     {
@@ -220,6 +228,13 @@ int main()
 
     janusz->rekaPrawa = b3;
     //janusz->rekaLewa = b2;
+
+    //b3->cena = 11;
+
+    Bron* b4 = new Bron("nowaBron", 5,6);
+
+    //b4->cena = 11;
+    b4->PokazCene();
 
     janusz->obliczPktAtaku();
 
